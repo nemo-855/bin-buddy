@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		55E43F832E200ABE00E6ABDD /* GarbageType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E43F812E200ABE00E6ABDD /* GarbageType+CoreDataClass.swift */; };
+		55E43F842E200ABE00E6ABDD /* GarbageType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E43F822E200ABE00E6ABDD /* GarbageType+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		55A61BF32E2000D000CA5ECF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		55A61BE52E2000C700CA5ECF /* BinBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A61BF22E2000D000CA5ECF /* BinBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A61BFC2E2000D000CA5ECF /* BinBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E43F812E200ABE00E6ABDD /* GarbageType+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GarbageType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		55E43F822E200ABE00E6ABDD /* GarbageType+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GarbageType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		55A61BDC2E2000C700CA5ECF = {
 			isa = PBXGroup;
 			children = (
+				55E43F812E200ABE00E6ABDD /* GarbageType+CoreDataClass.swift */,
+				55E43F822E200ABE00E6ABDD /* GarbageType+CoreDataProperties.swift */,
 				55A61BE72E2000C700CA5ECF /* BinBuddy */,
 				55A61BF52E2000D000CA5ECF /* BinBuddyTests */,
 				55A61BFF2E2000D100CA5ECF /* BinBuddyUITests */,
@@ -236,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E43F832E200ABE00E6ABDD /* GarbageType+CoreDataClass.swift in Sources */,
+				55E43F842E200ABE00E6ABDD /* GarbageType+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
